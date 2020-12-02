@@ -1505,8 +1505,7 @@ def plot_1d_hprofile(height_profile, figsize=4, fig_name='Height profile', savef
     """
     if (showfig == False) and (savefig == False):
         return
-
-    _logger.info('plotting height_profile')
+        _logger.info('plotting height_profile')
     _logger.warning(ind_str + 'in beta')
     start_time = time.time()
 
